@@ -23,11 +23,11 @@
   new_window: false
   highlight: false
 - name: Templates
-  link: "https://tendermasters.com/templates"
+  link: "#"
   new_window: true
   highlight: false
 - name: Shop
-  link: "https://tendermasters.com/shop/"
+  link: "#"
   new_window: true
   highlight: false
 - name: Contact
