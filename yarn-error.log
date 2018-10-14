@@ -1,0 +1,27 @@
+Arguments: 
+  /home/kampii/.nvm/versions/node/v10.6.0/bin/node /usr/share/yarn/bin/yarn.js add react-helmet
+
+PATH: 
+  /home/kampii/.nvm/versions/node/v10.6.0/bin:/home/kampii/.rbenv/plugins/ruby-build/bin:/home/kampii/.rbenv/shims:/home/kampii/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
