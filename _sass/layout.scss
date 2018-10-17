@@ -1,3 +1,9 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .container, .text-container {
 	margin: 0 auto;
 	position: relative;
@@ -64,6 +70,27 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	background: #DDD url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2244%22%20height%3D%2212%22%20viewBox%3D%220%200%2044%2012%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3C%2Fsvg%3E') 4px 4px no-repeat;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+
+.screenshot-text {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+.screenshot-text-b {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 20px 0 0 0;
 	position: relative;
 }
@@ -218,11 +245,14 @@ blockquote:before {
   }
   ul{
 		font-size: 16.56px;
-		font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial
-	  
+		font-family: 'Roboto', sans-serif;
+		font-weight: 200;
+	
   }
   li{
 	color: #666666;
+	font-family: 'Roboto', sans-serif;
+
   }
 
   // Box-Card
@@ -476,7 +506,7 @@ blockquote:before {
 	padding-right: 20px;
 	padding-bottom: 10px;
 	margin-top: -10px;
-	font-size: 8px;
+	//font-size: 8px;
  }
 .bg-img {
  background-size: cover;
@@ -490,7 +520,7 @@ blockquote:before {
 }
 .content-service {
 	padding: 10px;
-	font-size: 10px;
+	//font-size: 10px;
 	margin-top: 0px;
 	height: 200px;
 	justify-content: center;
@@ -509,3 +539,43 @@ button {
 	position: relative;
 	padding-right: 200px;
  }
+
+
+.hero-about {
+	color: #ffffff;
+	text-align: center;
+	background-image: url("/images/about-us.svg");
+	background-repeat:  no-repeat; 
+	background-size: cover;
+	background-position: center center;
+
+	p {
+		color: #fff;
+	}
+}
+
+.word-break {
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: center;
+
+}
+
+div#list ul {
+  list-style: none; /* Remove default bullets */
+}
+
+div#list ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #4182e4; /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	font-size: 30px;
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 3em; /* Also needed for space (tweak if needed) */
+ /* Also needed for space (tweak if needed) */
+	word-wrap: break-word;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300
+}

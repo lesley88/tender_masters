@@ -7,7 +7,7 @@
   new_window: false
   highlight: false
 - name: Services
-  link: /#services
+  link: /services/
   new_window: false
   highlight: false
 - name: Pricing
