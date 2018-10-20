@@ -18,17 +18,17 @@
   link: /work-process/
   new_window: false
   highlight: false
+- name: Templates
+  link: /templates/
+  new_window: false
+  highlight: false
+- name: Shop
+  link: https://shop.tendermasters.com
+  new_window: true
+  highlight: false
 - name: Blog
   link: /blog/
   new_window: false
-  highlight: false
-- name: Templates
-  link: "#"
-  new_window: true
-  highlight: false
-- name: Shop
-  link: "#"
-  new_window: true
   highlight: false
 - name: Contact
   link: /contact/
