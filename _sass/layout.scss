@@ -589,3 +589,27 @@ div#form-service{
 	padding: 100px;
 	width: 60%;
 }
+
+.faqs {
+	@media #{$desktop} {
+		@include columns(1);
+	}
+	color: #666;
+	div {
+		break-inside: avoid;
+		padding: 25px 0;
+	}
+
+	dt {
+		font-weight: bold;
+		font-size: 20px;
+		margin: 0 0 5px 0;
+	}
+
+	dd {
+		padding: 0;
+		margin: 0;
+		font-size: 18px;
+
+	}
+}

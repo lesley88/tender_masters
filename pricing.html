@@ -1,7 +1,7 @@
 ---
 title: Pricing
 heading: Free Structure
-description: As you may appreciate each buyer asks different questions and requires different information depending on type and system of procurement. For this reason we look at each tender document individually assessing such things as
+description: " As you may appreciate each buyer asks different questions and requires different information depending on type and system of procurement. For this reason we look at each tender document individually assessing such things as:"
 pricing_table:
   - name: Success Based
     color: "#4aad4a"
@@ -11,7 +11,7 @@ pricing_table:
       - text: Explore more on our fixed price models which comes with a Deal on Win or Loss (DoWoL) engagement.
         highlight: false
     call_to_action:
-      link: /pricing-retainer/
+      link: /pricing-success/
       text: Get started
   - name: Retainer Based
     color: "#4182e4"
@@ -21,7 +21,7 @@ pricing_table:
       - text:  Explore on our different subscription models that fits into your business needs.
         highlight: false
     call_to_action:
-      link: /pricing-success/
+      link: /pricing-retainer/
       text: Get started
 faq:
   - question: What types of payment do you accept?
@@ -33,14 +33,21 @@ faq:
   - question: Questions?
     answer: Contact us for any further questions at <a href="#">info@tendermasters.cm</a>.
 ---
+<div id="list"  >
+    <p class="card-title" style="text-align: center;">
+        <ul style="font-size: 20px">
+          <li>The questions involved</li>
+          <li>Total scope of works</li>
+          <li>Complexity of bid</li>
+        </ul> 
+         
+     </p>
+</div>
+
 <section>
     <h2>Find the perfect plan for your business </h2>
     <p>We have designed some engagements models that can fit into any size and nature of the business, meeting the one common goal – Win More. Every model is unique and has its own benefits, you can take a quick look at the following engagement models we have in place</p>
-    <p class="card-title" style="text-align: left;">
-        The questions involved<br>
-        Total scope of works<br>
-        Complexity of bid<br>
-    </p>
+    
 </section>
 
 
@@ -60,20 +67,23 @@ faq:
 		</ul>
 	{% endfor %}
 </div>
-
-<section>
-    <div class="container flex">
-        <h1><strong>Value added services</strong></h1>
-        <p style="padding-left: 100px">
-            The questions involved<br>
-            Total scope of works<br>
-            Complexity of bid<br>
-        </p>
+<div class="container flex" style="padding: 20px; padding-bottom: 60px;">
+  <div class="text editable">
+    <h1><strong>Value added services:</strong> </h1>
+  </div>
+  <div class="text editable" id="list">
+    <p>
+        <ul style="font-size: 20px">
+            <li>Proof reading</li>
+            <li>Advice & consultation</li>
+            <li>Reviewing & Deciphering feedback</li>
+            <li>Ongoing advice & support from the team</li>
+          </ul>
+      
+    </p>
     </div>
-   
 
-        
-</section>
+</div>
 
 {% if page.faq %}
 	<h2>Pricing FAQ</h2>

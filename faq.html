@@ -1,0 +1,59 @@
+---
+title: Frequently Asked Questions
+faq:
+  - question: How do you complete a tender??
+    answer: We gather information from your company through site visits and telephone interviews and use this to complete the tender. Using past experience, your
+     company innovations and our own techniques we can make you stand out from the competition.
+  - question: What is the cost of your services?
+    answer: There is no price list for our PQQ, bid and tender writing services. We charge on a project by project basis, depending on a number of factors (word count, number of days’ work, meetings, research and data collation, etc.)
+           We recommend that you send us the document that you wish us to complete and we will provide you with a fixed, no obligation quote.
+          For longer term relationships we offer monthly retainer charges based on how many days per annum your company will need our services.
+          For more information about our pricing, call us now on +260 964 124 428
+  - question: Do you have writers that specialise in my industry?
+    answer: We pride ourselves on being able to write PQQs and tenders for most industries or sectors. We have a wealth of experience writing tenders for industries from construction to health and social care, printing and publishing to translation/interpretation, maintenance to training and everything in between.
+           If we do come across an industry or niche that we have not written for previously, we conduct detailed meetings with your company and seek input from key members of staff to better understand the business.
+           In short, whatever you do, we can write for you.
+    
+  - question: How long does it take?
+    answer: The length of time to complete a bid is completely dependent on the size of the submission and what is required. Relatively small bids can be 
+            completed within a week, whereas larger, more complex tenders can require months.
+
+  - question: What happens if more than one company approaches you for the same tender?
+    answer: We work on a first come, first served basis. Therefore, if we are approached by a company for a contract we are already working on, we will politely decline the work.
+            The only exception is if there are multiple lots within the same contract, and our clients are bidding for different lots.
+    
+  - question: Can you guarantee that a submission wins?
+    answer: It is impossible to guarantee that your submission will be successful as it relies on too many factors that we cannot influence, such as competition, company experience and price.
+             However, we only accept a bid we know has a chance of winning and where we can assure you that the submission will be of the highest possible quality. If your company does not stand a fair chance, we will advise accordingly.
+    
+  - question: If we write our own tender, can you review it?
+    answer: Yes. We offer a full review service to companies who prefer to write their own tenders.
+
+  - question: How many writers work on one tender?
+    answer: This depends on the size of the bid, but usually only one writer is required for each SME submission, with additional staff working in support roles. However, every submission is reviewed by a bid manager and external proof reader
+           to ensure the highest quality, and some of our bids have had four writers assigned.
+
+  - question: Do you ever work on site?
+    answer: Yes, we often work on site. This is usually when a lot of information 
+            is required from service specialists, or if the bid is particularly large.
+
+  - question: What can you do for price-based tenders?
+    answer: Price-based tenders are obviously heavily influenced by the cost of your services or supplies. We cannot input at all on this section, but we can, however, significantly improve the quality, technical and compliance sections of your tender to prevent you falling down on these areas.
+            We cannot win it for you, but we can stop you losing on quality.
+    
+  - question: Are your services suitable for small companies?
+    answer: We work on behalf of companies of all shapes and sizes, from small, owner-managed businesses to large, blue chip firms.
+            Providing your company meets the requirements of the PQQ or tender then we are happy to work with you. However if you are a small firm that has never tendered for contracts before, we can also offer a bid ready auditing service to make sure you have all the necessary documents, policies and procedures in place to start bidding for contracts successfully.
+---
+
+{% if page.faq %}
+	<h2></h2>
+	<dl class="faqs">
+		{% for item in page.faq %}
+			<div>
+				<dt>{{ item.question }}</dt>
+				<dd>{{ item.answer }}</dd>
+			</div>
+		{% endfor %}
+	</dl>
+{% endif %}
